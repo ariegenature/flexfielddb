@@ -1,0 +1,13 @@
+[watcher:flexfielddb]
+cmd = flexfielddb --chaussette-fd $(circus.sockets.flexfielddb)
+use_sockets = True
+numprocesses = 3
+copy_env = True
+virtualenv = /opt/flexfielddb
+
+[socket:flexfielddb]
+host = 0.0.0.0
+port = 5000
+
+[env:flexfielddb]
+FLEXFIELDDB_CONF = /opt/flexfielddb/etc/flexfielddb/flexfielddb.ini

@@ -1,0 +1,5 @@
+[flexfielddb]
+DEBUG = false
+SERVER_NAME = localhost:5000
+LOG_LEVEL = warning
+LOG_FILENAME =

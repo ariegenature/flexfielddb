@@ -1,0 +1,4 @@
+include flexfielddb/VERSION
+include *.rst
+include .coveragerc
+recursive-include atests *.robot *.rst *.html *.txt
