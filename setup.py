@@ -79,8 +79,6 @@ setup(
             'pytest-cov',
             'readme_renderer',
             'robotframework',
-            'robotframework-selenium2library',
-            'robotframework-xvfb',
             'tox',
         ],
     },
